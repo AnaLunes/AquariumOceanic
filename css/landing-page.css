@@ -1,0 +1,89 @@
+
+@import url('responsive.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #f0f2f4;
+}
+
+.main-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  background-color: #0f2443;
+  display: block;
+  float: left;
+  padding: 8px 0;
+  width: 100%;
+}
+
+section {
+  display: block;
+  float: left;
+  font-size: 1.5rem;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.legenda h1, .legenda h2 {
+  color: #cddaef;
+}
+
+.legenda h2 {
+  font-weight: 300;
+}
+
+.btn-cta:hover {
+  background-color: #321065;
+  color: #f0f2f4;
+}
+
+#saiba-mais {
+  background-color: #476a9e;
+  line-height: 1.5;
+  padding: 40px 0;
+}
+
+#saiba-mais h3, #saiba-mais p {
+  color: #dce6f4;
+}
+
+.duvidas {
+  background-color: #bccbe1;
+  padding: 40px 0;
+}
+
+.dúvidas h3 {
+  color: #1d55aa;
+}
+
+dl {
+  line-height: 1.5;
+  margin: 30px 10px;
+}
+
+#tenho-interesse {
+  padding: 40px 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #0f2443;
+  display: block;
+  float: left;
+  line-height: 1.5;
+  padding: 20px 0;
+  width: 100%;
+}
+
